@@ -270,7 +270,7 @@ padding: 1rem;
 	}
     footer {
         flex-direction: column; /* To make the footer be vertical  */
-        align-items: center;
+        align-items: left ;
 
     }
 
@@ -315,11 +315,16 @@ padding: 1rem;
         margin: 0;
     }
 
-    .index-paragraphs{  /* To make the width the same when scaling in smaller */
+    .index-paragraphs{  /* To make the width the same when scaling is smaller */
         max-width: 90%;
     }
 
-    .index-article img { /* To make the width the same when scaling in smaller */
+    .index-article img { /* To make the width the same when scaling is smaller */
+        max-width: 90%;
+    }
+
+    .image-info-container{ /* To make the width the same and text under foto when scaling is smaller */
+        margin: 0 auto;
         max-width: 90%;
     }
 
